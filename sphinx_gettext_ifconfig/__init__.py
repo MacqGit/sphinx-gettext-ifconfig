@@ -7,7 +7,7 @@ from sphinx.application import Sphinx
 
 def setup(app: Sphinx) -> Dict[str, Any]:
 
-    from sphinx_gettext.main import process_ifconfig_nodes
+    from sphinx_gettext_ifconfig.main import process_ifconfig_nodes
     
     for listeners in app.events.listeners.values():
         for listener in listeners[:]:
