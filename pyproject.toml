@@ -4,7 +4,7 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "sphinx_gettext_ifconfig"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 authors = [{name = "Bernard Etiennot", email = "b.etiennot@gmail.com"}]
 readme = "README.md"
@@ -41,7 +41,7 @@ keywords = [
 
 requires-python = ">=3.7"
 dependencies = [
-    "docutils>=0.15,<0.19",
-    "sphinx>=4,<6",
+    "docutils~=0.19",
+    "sphinx>=5,<7",
     "typing-extensions",
 ]
